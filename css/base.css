@@ -1,0 +1,20 @@
+* {box-sizing: padding-box;
+}
+
+header { background-color:#F0F0F0 ;
+    font-family: sans-serif;
+}
+nav { background-color: #F8F8F8;
+}
+h1 { color: Orange; 
+}
+section { background-color: #F8F8F8;
+}
+aside{ background-color: #F8F8F8;
+}
+p {color: black;
+}
+
+h4 {color: #000099;
+footer { background-color:  #F0F0F0;
+}  
