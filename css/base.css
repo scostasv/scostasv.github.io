@@ -1,20 +1,28 @@
-* {box-sizing: padding-box;
+* {box-sizing: padding-box; background-color: #F0F0F0;
 }
 
-header { background-color:#F0F0F0 ;
-    font-family: sans-serif;
+p {color: black; text-align: left
 }
-nav { background-color: #F8F8F8;
-}
+
 h1 { color: Orange; 
 }
-section { background-color: #F8F8F8;
+h2 { color: #000099; 
+    }
+h3 {
 }
-aside{ background-color: #F8F8F8;
+h4 {color: #FF3300;
 }
-p {color: black;
+h5 { color: #000066;
 }
+header { font-family: sans-serif; 
+}
+nav { background-color: 
+}
+section { font-family: sans-serif
+}
+aside{ 
+}
+footer { font-family: sans-serif
+} 
 
-h4 {color: #000099;
-footer { background-color:  #F0F0F0;
-}  
+ 
