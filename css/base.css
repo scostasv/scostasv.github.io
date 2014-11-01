@@ -4,25 +4,25 @@
 p {color: black; text-align: left
 }
 
-h1 { color: Orange; 
+h1 { color: #FF4C05; 
 }
 h2 { color: #000099; 
     }
-h3 {
+h3 { color: #8A8A91;
 }
 h4 {color: #FF3300;
 }
 h5 { color: #000066;
 }
-header { font-family: sans-serif; 
+header { font-family: serif; 
 }
 nav { background-color: 
 }
-section { font-family: sans-serif
+section { font-family: serif;
 }
 aside{ 
 }
-footer { font-family: sans-serif
+footer { font-family: serif;
 } 
 
  
