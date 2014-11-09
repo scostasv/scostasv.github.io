@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>News From Gainesville</title>
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+        
+            <div id="banner">
+                
+                <header>
+                    <img src="img/logo.png" alt="logo">
+                    <h1>Latin American Voices</h1>
+                </header>
+                    <h5>Updates from the Latino Community in the University of Florida.</h5>
+                
+            </div>
+            
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gainesville</a>
+                <a href="#">Latin America</a>
+                <a href="#">Español</a>
+                <a href="#">Contact/Submit</a>
+            </nav>
+            
+            <div id="content">
+                <article id="gainesville">
+                    <h2>Article headline</h2>
+                    <h3>Subheading for most pages to give additional summary info.</h3>
+                    <div class="photo-with-caption">
+                        <img src="img/fields.jpg" alt="fields">
+                        <p>Photo caption and such goes here.</p>
+                    </div>
+                    <p>Body text here and here and some more.</p>
+                </article>
+                <aside id="social-media">
+                    <p>Share this story</p>
+                    
+                        <a href="http://twitter.com">Twitter</a>
+                        <a href="http://facebook.com">Facebook</a>
+                        <a href="http://wordpress.com">Wordpress</a>
+                    
+                </aside>
+                <aside id="sidebar">
+                    <h4>Related Stories
+                    </h4>
+                    <ul>
+                        <li>Number 1</li>
+                        <li>Number 2</li>
+                    </ul>
+                </aside>
+            </div>
+            
+            
+            <footer>
+                <p>&copy; 2014 Sofia Costas // Visit my Twitter account <a href="http://twitter.com/scostasv">@Scostasv</a>
+                </p>
+            </footer>
+        
+        </div>
+
+    </body>
+
+</html>
