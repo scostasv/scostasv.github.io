@@ -3,11 +3,11 @@
     background-color: #F0F0F0;
     display: table;
     position: relative;
+    font-family: serif;
 }
 
 header {
     white-space: nowrap;
-    font-family: serif; 
     margin: 3px;
     padding: 4px;
     line-height: 24px;
@@ -30,11 +30,13 @@ nav a {
 
 nav a:hover{
     text-decoration: underline;
-    color: blue;
+    color: orange;
 }
 
+/* Not working */
 nav a:active {
     text-decoration: underline;
+    color: blue;
 }
 
 #banner {
@@ -51,17 +53,96 @@ nav a:active {
     font-family: serif;
     font-size: 20px;
     margin-left: 15px;
+    padding-right: 15px;
 }
 
 section {
-    font-family: serif;
+    border-bottom: solid thin grey;
+    padding-left: 5px
 }
 
+#from-gainesville { 
+    margin: 10px;
+    }
+
+#from-latin-america {
+    margin: 10px;    
+}
+
+#espanol {
+    margin: 10px;
+}
+
+.sectiontitle a {
+    text-decoration: none;   
+    font-family: sans-serif;
+    color: #160E5A;
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Needs to be closer to the title */
+#subtitle  {
+    padding-left: 10px;
+    padding-top: 0px;
+    white-space: nowrap;
+}
+
+p { white-space: nowrap;
+}
+
+.sectiontitle a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+#wrapper {
+    padding: 5px;
+    margin: 5px;
+    border-bottom: thin solid;
+    margin-bottom: 15px;
+    
+}
+
+
+/*Need to put on top right corner */
 aside { 
+    border: solid thin grey;
+    padding: 8px;
+    margin: 5px;
+    float: right;
+    
+}
+#asides { float: right;
+    margin-bottom: 5px;
 }
 
 footer { 
+    padding-top: 8px;
     font-family: serif;
-} 
+    display:inline;
+   } 
+
+footer p {
+    padding-right: 8px;
+    border-right: thin; 
+    margin-right: 5px;
+    border-right-style: groove;
+    display: inline;
+}
+
+footer a {
+   
+    display: inline;
+    text-decoration: none;
+    color: blue;
+    
+}
+
+footer a:hover {
+    color: orange;
+    text-decoration: underline
+}
 
  
