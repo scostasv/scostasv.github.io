@@ -11,8 +11,9 @@ header {
     margin: 3px;
     padding: 4px;
     line-height: 24px;
-    border: double #8A8A91;
-   
+    border: #8A8A91;
+    border-style: ridge; 
+    background-color: #E1E1E1;
 }
     
 nav a {
@@ -26,11 +27,16 @@ nav a {
     display:inline-flex;
     line-height: 24px;
     text-decoration: none;
+    border: ridge thin grey;
+    margin-top: 5px;
+    margin-left: 3px;
+    background-color: #E1E1E1;
 }
 
 nav a:hover{
     text-decoration: underline;
-    color: orange;
+    color: #282071;
+    background-color: #FF4C05;
 }
 
 /* Not working */
@@ -42,18 +48,21 @@ nav a:active {
 #banner {
     color: #FF4C05;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 330%;
     margin-bottom: 5px;
     padding-left: 5px;
+    background-color: inherit;
     
 }
 
 #subheader{
-    color: #160E5A;
+    color: #282071;
     font-family: serif;
-    font-size: 20px;
+    font-size: 150%;
     margin-left: 15px;
     padding-right: 15px;
+    background-color: inherit;
+    
 }
 
 section {
@@ -94,7 +103,7 @@ p { white-space: nowrap;
 
 .sectiontitle a:hover {
     text-decoration: underline;
-    color: orange;
+    color: #FF4C05;
 }
 
 #wrapper {
@@ -145,4 +154,35 @@ footer a:hover {
     text-decoration: underline
 }
 
+.headline {
+    font-family: serif;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: black;
+    margin-bottom: 5px;
+    font-style: oblique;
+}
+
+.artsub {
+    margin-top: 0px;
+    padding-left: 8px;
+    font-family: serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.photo-with-caption {
+    border: solid thin grey;
+    margin: 5px;
+    float: left;
+    }
  
+.photo-with-caption p {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.body {
+    
