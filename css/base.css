@@ -56,7 +56,7 @@ nav a:active {
 
 #banner {
     color: #FF4C05;
-    font-family: sans-serif;
+    font-family: serif;
     font-size: 500%;
     background-color: inherit;
     
@@ -75,24 +75,28 @@ nav a:active {
 section {
     border-bottom: solid thin grey;
     padding-left: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     align-content: center;
 }
 
-.section.link.header {
-    white-space: nowrap;
-    }
 #section.link { 
     margin-right: 10%;
     }
 
+.section.link.header {
+    white-space: nowrap;
+    color: inherit;
+    }
+
+
 .sectiontitle a {
     text-decoration: none;   
-    font-family: sans-serif;
+    font-family: serif;
     color: #160E5A;
     font-size: 180%;
     margin-bottom: 0;
     padding-bottom: 0;
+    white-space: nowrap;
     }
 
 /* Needs to be closer to the title */
@@ -111,33 +115,36 @@ p { white-space: nowrap;
 }
 
 #wrapper {
-   
-    
-}
+    border-bottom: solid thin grey;
+    padding-left: 2%;
+    padding-bottom: 8%;
+    align-content: center;  
+    }
 
 
 /*Need to put on top right corner */
 aside { 
     border: solid thin grey;
-    padding: 8px;
-    margin: 5px;
+    padding: 3%;
+    margin: 3%;
     float: right;
     
 }
-#asides { float: right;
-    margin-bottom: 5px;
+#asides { 
+    margin-bottom: 5%;
+    
 }
 
 footer { 
-    padding-top: 8px;
+    padding-top: 8%;
     font-family: serif;
     display:inline;
    } 
 
 footer p {
-    padding-right: 8px;
+    padding-right: 8%;
     border-right: thin; 
-    margin-right: 5px;
+    margin-right: 5%;
     border-right-style: groove;
     display: inline;
 }
@@ -157,19 +164,18 @@ footer a:hover {
 
 .headline {
     font-family: serif;
-    font-size: 32px;
-    padding-top: 10px;
-    padding-left: 5px;
+    font-size: 200%;
+    padding-left: 1%;
     color: black;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     font-style: oblique;
 }
 
 .artsub {
     margin-top: 0px;
-    padding-left: 8px;
+    padding-left: 1%;
     font-family: serif;
-    font-size: 15px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 200;
 }
@@ -183,8 +189,14 @@ footer a:hover {
  
 .photo-with-caption p {
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 50%;
 }
 
 .body {
+    overflow-x: hidden;
+    text-align: left;
+    margin: 1%;
+    width: 100%;
+    display: block;
+}
     
