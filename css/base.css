@@ -1,36 +1,45 @@
 * {
-    box-sizing: padding-box;
+    box-sizing: border-box;
+    
+}
+
+body {
     background-color: #F0F0F0;
-    display: table;
-    position: relative;
     font-family: serif;
+    margin: 0;
+    padding: 0;
+    
+    
 }
 
 header {
     white-space: nowrap;
-    margin: 3px;
-    padding: 4px;
-    line-height: 24px;
+    margin: 0px;
+    padding: 4%;
+    line-height: 50%;
     border: #8A8A91;
     border-style: ridge; 
     background-color: #E1E1E1;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 3%;
+    font-family: serif;
+    font-size: 18px;
 }
     
 nav a {
-    display: inline;
-    padding: 10px;
-    border-bottom: 3px, solid, white;
-    padding-top: 15px;
+    padding: 1%;
     color: black;
-    font-family: serif;
-    font-size: 18px;
-    display:inline-flex;
-    line-height: 24px;
+    line-height: 24%;
     text-decoration: none;
     border: ridge thin grey;
-    margin-top: 5px;
-    margin-left: 3px;
     background-color: #E1E1E1;
+    
 }
 
 nav a:hover{
@@ -48,53 +57,48 @@ nav a:active {
 #banner {
     color: #FF4C05;
     font-family: sans-serif;
-    font-size: 330%;
-    margin-bottom: 5px;
-    padding-left: 5px;
+    font-size: 500%;
     background-color: inherit;
+    
     
 }
 
 #subheader{
     color: #282071;
     font-family: serif;
-    font-size: 150%;
-    margin-left: 15px;
-    padding-right: 15px;
+    font-size: 150%;    
     background-color: inherit;
+    
     
 }
 
 section {
     border-bottom: solid thin grey;
-    padding-left: 5px
+    padding-left: 2%;
+    padding-bottom: 5%;
+    align-content: center;
 }
 
-#from-gainesville { 
-    margin: 10px;
+.section.link.header {
+    white-space: nowrap;
     }
-
-#from-latin-america {
-    margin: 10px;    
-}
-
-#espanol {
-    margin: 10px;
-}
+#section.link { 
+    margin-right: 10%;
+    }
 
 .sectiontitle a {
     text-decoration: none;   
     font-family: sans-serif;
     color: #160E5A;
-    font-size: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
+    font-size: 180%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
 
 /* Needs to be closer to the title */
 #subtitle  {
-    padding-left: 10px;
-    padding-top: 0px;
+    padding-left: 5%;
+    padding-top: 0;
     white-space: nowrap;
 }
 
@@ -107,10 +111,7 @@ p { white-space: nowrap;
 }
 
 #wrapper {
-    padding: 5px;
-    margin: 5px;
-    border-bottom: thin solid;
-    margin-bottom: 15px;
+   
     
 }
 
@@ -177,6 +178,7 @@ footer a:hover {
     border: solid thin grey;
     margin: 5px;
     float: left;
+    
     }
  
 .photo-with-caption p {
