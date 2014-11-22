@@ -5,7 +5,7 @@
 
 body {
     background-color: #F0F0F0;
-    font-family: serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     
@@ -21,16 +21,18 @@ header {
     border-style: ridge; 
     background-color: #E1E1E1;
     text-align: center;
-}
+    font-weight: bold;
+    }
 
 nav {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-left: 3%;
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 18px;
-}
+    font-weight: bold;
+    }
     
 nav a {
     padding: 1%;
@@ -39,6 +41,7 @@ nav a {
     text-decoration: none;
     border: ridge thin grey;
     background-color: #E1E1E1;
+    color: #282071;
     
 }
 
@@ -56,7 +59,7 @@ nav a:active {
 
 #banner {
     color: #FF4C05;
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 500%;
     background-color: inherit;
     
@@ -65,7 +68,7 @@ nav a:active {
 
 #subheader{
     color: #282071;
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 150%;    
     background-color: inherit;
     
@@ -91,7 +94,7 @@ section {
 
 .sectiontitle a {
     text-decoration: none;   
-    font-family: serif;
+    font-family: sans-serif;
     color: #160E5A;
     font-size: 180%;
     margin-bottom: 0;
@@ -121,24 +124,38 @@ p { white-space: nowrap;
     align-content: center;  
     }
 
-
-/*Need to put on top right corner */
+#asides {
+    margin: auto;
+    box-sizing:;
+    
+}
 aside { 
     border: solid thin grey;
-    padding: 3%;
-    margin: 3%;
+    padding: 1%;    
     float: right;
-    
-}
-#asides { 
-    margin-bottom: 5%;
-    
-}
+    display: block;
+    margin: 1%;
+    }
 
+
+.social-media {
+    white-space: pre-line;
+    padding-left: 1%;
+    
+    
+}
 footer { 
     padding-top: 8%;
     font-family: serif;
-    display:inline;
+    display:block;
+    white-space: nowrap;
+    margin: 0;
+    padding: 4%;
+    line-height: 0;
+    border: #8A8A91;
+    border-style: ridge; 
+    background-color: #E1E1E1;
+    text-align: center;
    } 
 
 footer p {
@@ -174,7 +191,7 @@ footer a:hover {
 .artsub {
     margin-top: 0px;
     padding-left: 1%;
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 100%;
     font-style: normal;
     font-weight: 200;
