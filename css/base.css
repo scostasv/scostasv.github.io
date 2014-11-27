@@ -85,10 +85,15 @@ article h3 a {
 article h3 a:hover {
     color: #E94200;
 }
-    
+
+article h2 {
+    margin-bottom: 2px    
+}
+
 article h2 a {
     text-decoration: none;
     color: black;
+    font-style: oblique;
 }
 
 article h2 a:hover {
@@ -115,4 +120,40 @@ footer a:hover {
 }
 footer span {
     margin-left: 5%;
+}
+
+iframe {
+    text-align: center;
+    width: 600px;
+    height: 760px;
+}
+
+.photo-with-caption {
+    padding: 0;
+    display:grid;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1%;
+    
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+
+.photo-with-caption p {
+    font-size: 70%;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.short-link {
+    line-height: 25px;
+}
+
+.content {
+    line-height: 25px
 }
