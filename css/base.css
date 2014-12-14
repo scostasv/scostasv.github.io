@@ -139,7 +139,7 @@ iframe {
 
 img {
     width: 200px;
-    display: block;
+    display: inline-block;
 }
 
 .photo-with-caption p {
@@ -171,6 +171,8 @@ img {
 }
 
 .social-media a {
+    text-decoration: none;
+    padding-right: 3px;
 }
 
 
